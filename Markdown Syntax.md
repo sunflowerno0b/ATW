@@ -11,7 +11,7 @@ In order to work on Git, your repos will most likely be made in markdown. Best p
 
 # Markdown Preview
 ## Tools & one tip
-If you're not yet a seasoned professional with markdown, it’s great to be able to see a preview of the work you’re doing, live. Currently I am on a Mac (iknow boo- but its what i have). I am using the [Brackets](http://brackets.io/) open source tool in conjunction with the Brackets Mark Down Preview. This allows me to see what I am typing in real time. If don't get the extension you can preview it by clicking the lighting bolt icon and it will open up a chrome window for you to preview, pretty neat. Note that it only works with Chrome. 
+If you're not yet a seasoned professional with markdown, it’s great to be able to see a preview of the work you’re doing, live. Currently I am on a Mac (iknow boo- but its what i have). I am using the [Brackets](http://brackets.io/) open source tool in conjunction with the Brackets Mark Down Preview. This allows me to see what I am typing in real time. If don't get the extension you can preview it by clicking the lighting bolt icon and it will open up a chrome window for you to preview, pretty neat. Note that it only works with Chrome. Git has its own preview but its annoying to click between two tabs to see what you're doing as you type. File extension for markdown is ".md". 
 
 ***I will be looking into Ubuntu Options as well.For you windows users, I hate that OS so you're on your own- or write me and we can work together to find something!***
 
