@@ -41,8 +41,12 @@ You can stack your lists by moving to the next line. If you want to indent, you 
 
 ## Links & Images 
 If you want to include links in your markdown files you enter the description within brackets "[description here]" then the url between parenthesis "(https://www.youtube.com)". Note that there should not be space between the brackets and parentheses- it wont work if there is. 
-  
+
+[Click me](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+
 For images, the syntax its a little tricky to understand but bear with me. You're going to include an exclamation point followed by brackets with the words "alt text" then your image URL between parentheses. You can pull image URLs by clicking the image, right click and selecting view info, this is different per website, OS, etc. Will work on a break down a few later.
+
 
 ## In-line Code 
 To use the in-line code you're going to want to use the tilde symbol, this should normally be under the esc key on your keyboard. I will let you figure that one out as homework! When you want your code to appear in a block you enter three tildes, then the code you would like, followed by three more tildes on the next line. See the example below
@@ -56,7 +60,6 @@ I read somewhere that tables are not normally supported in markdown but Git allo
 Take note of the pipe being used between each column. Additional, see that in every line there is a space. In the second line(58) you can see that there are three dashes it has to be 3. 
 Also notice the spacing before and after each word and pipe- this is important if you want it to work.
 
-![alt text](https://live.staticflickr.com/65535/50507688327_fe74aa9f78_b.jpg)
   
 ## Spicy Text
 If you want to add a little style **to** ***your*** ~~text~~ you can do the following
