@@ -60,6 +60,7 @@ I read somewhere that tables are not normally supported in markdown but Git allo
 Take note of the pipe being used between each column. Additional, see that in every line there is a space. In the second line(58) you can see that there are three dashes it has to be 3. 
 Also notice the spacing before and after each word and pipe- this is important if you want it to work.
 
+![alt text](https://live.staticflickr.com/65535/50507688327_fe74aa9f78_b.jpg)
   
 ## Spicy Text
 If you want to add a little style **to** ***your*** ~~text~~ you can do the following
