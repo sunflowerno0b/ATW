@@ -4,10 +4,10 @@ name: Build
 on:  # yamllint disable-line rule:truthy
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   Documentation:
@@ -23,12 +23,12 @@ jobs:
         with:
           python-version: 3.7
       - name: Install dependencies
-        run: pip install -r ./docs/requirements.txt
+        run: pip install -r ./requirements.txt
       - name: Build the Documentation
         run: |
           mkdocs build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
