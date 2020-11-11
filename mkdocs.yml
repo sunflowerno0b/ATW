@@ -1,0 +1,57 @@
+site_name: Things Learned
+site_author: sunflowerno0b
+site_url: https://sunflowerno0b.github.io/Things-Learned
+nav:
+  - Introducción: index.md
+  - Markdown Syntax: Markdown Syntax.md
+  - Securedrop: Securedrop.md
+plugins:
+  - search
+  - autolinks
+  - git-revision-date-localized:
+      type: timeago
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - markdown_include.include:
+      base_path: docs
+  - meta
+  - toc:
+      #permalink: true
+      #baselevel: 2
+      toc_depth: 0
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+theme:
+  name: material
+  logo: images/logo.svg
+  features:
+    - navigation.instant
+  language: es
+  palette:
+    primary: 'teal'
+    accent: 'amber'
+
+extra_css:
+  - 'stylesheets/extra.css'
+#  - 'stylesheets/links.css'
+
+repo_name: pynomaly/viz-viz
+repo_url: https://github.com/pynomaly/viz-viz
