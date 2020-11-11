@@ -2,7 +2,7 @@ site_name: Things Learned
 site_author: sunflowerno0b
 site_url: https://sunflowerno0b.github.io/Things-Learned
 nav:
-  - Introducción: index.md
+  - Introduction: index.md
   - Markdown Syntax: Markdown Syntax.md
   - Securedrop: Securedrop.md
 plugins:
