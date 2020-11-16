@@ -44,7 +44,7 @@ theme:
   logo: images/logo.svg
   features:
     - navigation.instant
-  language: es
+  language: en
   palette:
     primary: 'teal'
     accent: 'amber'
