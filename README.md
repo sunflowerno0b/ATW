@@ -1,7 +1,7 @@
-# viz-viz
+# Things-Leaned 
 
-[![Actions Status](https://github.com/pynomaly/viz-viz/workflows/Build/badge.svg)](https://github.com/pynomaly/viz-viz/actions)
+[![Actions Status](https://github.com/sunflowerno0b/Things-Learned/workflows/Build/badge.svg)](https://github.com/sunflowerno0b/Things-Learned/actions)
 
-Data visualizations repository
+Things I am learning along the way repository. 
 
-Better seen at https://pynomaly.github.io/viz-viz
+Better seen at https://sunflowerno0b.github.io/Things-Learned/

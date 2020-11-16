@@ -39,15 +39,15 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-theme:
-  name: superhero
-  logo: images/logo.svg
+theme: 
+   name: materials
+   logo: images/logo.svg
   features:
     - navigation.instant
   language: en
   palette:
-    primary: 'teal'
-    accent: 'amber'
+     primary: 'gray'
+     accent: 'orange'
 
 extra_css:
   - 'stylesheets/extra.css'
