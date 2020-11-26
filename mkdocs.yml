@@ -41,7 +41,7 @@ markdown_extensions:
 
 theme: 
   name: material
-  favicon: images/favicon.png
+  logo: outerspace.png
   features:
     - navigation.instant
   language: en
