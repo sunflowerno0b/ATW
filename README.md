@@ -1,4 +1,4 @@
-# Things-Leaned 
+# Things-Learned 
 
 [![Actions Status](https://github.com/sunflowerno0b/Things-Learned/workflows/Build/badge.svg)](https://github.com/sunflowerno0b/Things-Learned/actions)
 
