@@ -5,6 +5,7 @@ nav:
   - Introduction: index.md
   - Markdown Syntax: Markdown Syntax.md
   - Securedrop: Securedrop.md
+  - Resources: Resources.md  
 plugins:
   - search
   - autolinks
