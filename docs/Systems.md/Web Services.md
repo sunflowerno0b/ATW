@@ -1,6 +1,6 @@
 # Why?  
 Systems is very vast, creating a space to show the 
-things learned over time will be helpful in a refernce point to find things when stuck. Hope this helps. 
+things learned over time will be helpful in a reference point to find things when stuck. Hope this helps. 
 
 
 ## VPN
@@ -10,7 +10,7 @@ common places to check is your resolv.conf file.
 ### How?
 In your terminal with your editor of choice open resolv.conf, if you do not have this file the editor will automatically create it. 
 
-You will want to add the namesever of the site you're trying to reach. Example:
+You will want to add the name-sever of the site you're trying to reach. Example:
 `nameserver 172.X.XX.X.X`
 
 When not needed feel free to comment it out. Example:
