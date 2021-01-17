@@ -6,8 +6,7 @@ nav:
   - Markdown Syntax: Markdown Syntax.md
   - Securedrop: Securedrop.md
   - Systems: 
-      -Web Services.md
-      -Test.md
+    - Web Services: Web Services.md
   - Resources: Resources.md  
 plugins:
   - search
