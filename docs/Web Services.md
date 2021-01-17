@@ -1,6 +1,6 @@
 # Why?  
 Systems is very vast, creating a space to show the 
-things learned over time will be helpful in a refernce point to find things when stuck. Hope this helps. 
+things learned over time will be helpful in a reference point to find things when stuck. Hope this helps. 
 
 
 ## VPN
