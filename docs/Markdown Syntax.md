@@ -11,7 +11,7 @@ In order to work on Git, your repos will most likely be made in markdown. Best p
 
 # Markdown Preview
 ## Tools & one tip
-If you're not yet a seasoned professional with markdown, it’s great to be able to see a preview of the work you’re doing, live. Currently I am on a Mac (iknow boo- but its what i have). I am using the [Brackets](http://brackets.io/) open source tool in conjunction with the Brackets Mark Down Preview. This allows me to see what I am typing in real time. If don't get the extension you can preview it by clicking the lighting bolt icon and it will open up a chrome window for you to preview, pretty neat. Note that it only works with Chrome. Git has its own preview but its annoying to click between two tabs to see what you're doing as you type. File extension for markdown is ".md". 
+If you're not yet a seasoned professional with markdown, it’s great to be able to see a preview of the work you’re doing, live. Currently I am on a Mac (i know boo- but its what i have). I am using the [Brackets](http://brackets.io/) open source tool in conjunction with the Brackets Mark Down Preview. This allows me to see what I am typing in real time. If don't get the extension you can preview it by clicking the lighting bolt icon and it will open up a chrome window for you to preview, pretty neat. Note that it only works with Chrome. Git has its own preview but its annoying to click between two tabs to see what you're doing as you type. File extension for markdown is ".md". 
 
 ***I will be looking into Ubuntu Options as well.For you windows users, I hate that OS so you're on your own- or write me and we can work together to find something!***
 
@@ -27,7 +27,7 @@ No quotations --> # your desired text
 Remember that space after the hashtag, spacing is key in markdown as I've learned.
 
 ## Paragraphs
-To write a pargraph(s), you simply have to write text underneath your title, theres no special spacing or characters needed. Depending on your markdown preview or where you're posting one thing to note is line breaks. Some places might as for a line skip to signal a line break. To break that down: if you are on line 2, and enter your text then press enter and continue the paragraph on line 3- your rendered version will not show the text spaced out, it would be one continuously line. To break that line, you have to skip a line and start, so that is 2, skip line 3, and continue your text on line 4. Your rendered version should show that desired line break. 
+To write a paragraph(s), you simply have to write text underneath your title, there's no special spacing or characters needed. Depending on your markdown preview or where you're posting one thing to note is line breaks. Some places might as for a line skip to signal a line break. To break that down: if you are on line 2, and enter your text then press enter and continue the paragraph on line 3- your rendered version will not show the text spaced out, it would be one continuously line. To break that line, you have to skip a line and start, so that is 2, skip line 3, and continue your text on line 4. Your rendered version should show that desired line break. 
 
 ## Lists
 If you want lists you can add those by using one of two symbols: + or -
@@ -40,7 +40,7 @@ You can stack your lists by moving to the next line. If you want to indent, you 
 
 
 ## Links & Images 
-If you want to include links in your markdown files you enter the description within brackets "[description here]" then the url between parenthesis "(https://www.youtube.com)". Note that there should not be space between the brackets and parentheses- it wont work if there is. 
+If you want to include links in your markdown files you enter the description within brackets "[description here]" then the URL between parenthesis "(https://www.youtube.com)". Note that there should not be space between the brackets and parentheses- it wont work if there is. 
 
 [Click me](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 

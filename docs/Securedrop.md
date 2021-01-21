@@ -3,7 +3,7 @@ At my current role, I am a SecureDrop (SD) admin. It was not known to me how int
 Because of this, I will also store here and share tips and tricks that I have learned throughout my 3 years working with the tool. 
 
 ## What is it?
-SecureDrop is an open source whistleblower submission system that media organizations and NGOs can install to securely accept documents from anonymous sources. It was originally created by the late Aaron Swartz and is now managed by Freedom of the Press Foundation. SecureDrop is available in 20 languages. More info can be found 
+SecureDrop is an open source whistle blower submission system that media organizations and NGOs can install to securely accept documents from anonymous sources. It was originally created by the late Aaron Swartz and is now managed by Freedom of the Press Foundation. SecureDrop is available in 20 languages. More info can be found 
 [here](https://securedrop.org/).
 
 For my day-to-day I check SD for anonymous submissions of potential news story leads. 
@@ -23,20 +23,20 @@ The SVS is not connected to the internet. With the encrypted USB drive and anoth
 # Maintenance of SD
 Being a sysadmin for SD requires understanding of the command line, SSH with sever(s), and the role of each USB. FPF attempts to make it easy with GUI options but I can attest that this does not always work.
 ## Command line
-When updating and you don’t see it working with the gui
+When updating and you don’t see it working with the GUI
 
 ## V2 & V3 Upgrade
 Recently it was announced that the support for V2 onions would cease. Earlier I mentioned onion (tor browsers). Check back there in case you need a refresher. This leaves V2 running instances vulnerable, eliminate the vulnerability by switching to V3. 
 
 ## Steps
 ### Verify ssh config files for Mon and App (your servers)
-Every securedrop instance will have the Admin USB and the Journalist USB, for any major configurations to SD, it will run from the admin USB only. 
+Every secure drop instance will have the Admin USB and the Journalist USB, for any major configurations to SD, it will run from the admin USB only. 
 
 First, open the terminal navigate to the SD directory- enter `cd ~/Persistent/securedrop`  then verify that 
 in servers (app & mon) have the files for ssh, they are titled `app-ssh-ths` & `mon-ssh-ths`. If they are there, excellent. If not, contact FPF support **ASAP**.
 
 ### Check your git status
-Within the same `cd ~/Persistent/securedrop`, enter `git status`. This will have the output of where the `head detached at x.x.x`. You want to make sure that its at the lastest version. 
+Within the same `cd ~/Persistent/securedrop`, enter `git status`. This will have the output of where the `head detached at x.x.x`. You want to make sure that its at the latest version. 
 
 
 ### Verify what servers app & mon are connected to
