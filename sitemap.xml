@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://sunflowerno0b.github.io/Things-Learned/</loc>
-     <lastmod>2021-01-21</lastmod>
+     <lastmod>2021-01-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://sunflowerno0b.github.io/Things-Learned/Markdown%20Syntax/</loc>
-     <lastmod>2021-01-21</lastmod>
+     <lastmod>2021-01-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://sunflowerno0b.github.io/Things-Learned/Securedrop/</loc>
-     <lastmod>2021-01-21</lastmod>
+     <lastmod>2021-01-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://sunflowerno0b.github.io/Things-Learned/Web%20Services/</loc>
-     <lastmod>2021-01-21</lastmod>
+     <lastmod>2021-01-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://sunflowerno0b.github.io/Things-Learned/VS%20Code%20Install/</loc>
-     <lastmod>2021-01-21</lastmod>
+     <lastmod>2021-01-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://sunflowerno0b.github.io/Things-Learned/Ansible%20Vault/</loc>
+     <lastmod>2021-01-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://sunflowerno0b.github.io/Things-Learned/Resources/</loc>
-     <lastmod>2021-01-21</lastmod>
+     <lastmod>2021-01-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
