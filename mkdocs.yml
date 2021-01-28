@@ -8,6 +8,7 @@ nav:
   - Systems: 
      - Web Services: Web Services.md
      - VS Code: VS Code Install.md
+     - Ansible Vault: Ansible Vault.md
   - Resources: Resources.md  
 plugins:
   - search
