@@ -45,7 +45,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 theme: 
-  name: materials
+  name: material
   logo: outerspace.png
   features:
     - navigation.instant
