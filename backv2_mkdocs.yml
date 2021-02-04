@@ -50,7 +50,9 @@ theme:
   features:
     - navigation.instant
   language: en
-
+  palette:
+     primary: 'gray'
+     accent: 'orange'
 
 extra_css:
   - 'stylesheets/extra.css'
