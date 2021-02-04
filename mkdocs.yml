@@ -45,12 +45,14 @@ markdown_extensions:
   - pymdownx.tilde
 
 theme: 
-  name: bootstrap
+  name: simplex
   logo: outerspace.png
   features:
     - navigation.instant
   language: en
-
+  palette:
+     primary: 'gray'
+     accent: 'orange'
 
 extra_css:
   - 'stylesheets/extra.css'
