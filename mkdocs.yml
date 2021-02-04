@@ -45,7 +45,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 theme: 
-  name: material
+  name: bootstrap
   logo: outerspace.png
   features:
     - navigation.instant
