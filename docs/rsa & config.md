@@ -1,6 +1,6 @@
 ## RSA & CONFIG
 
-In systems administration much of the work performed requires the sysadmin to ssh into a machine. Organizations, if prudent will need the users RSA keys in order to provide secure authentication. RSA works under asymmetric encryption with the user generating a private & a public key pair. These keys are later stored in locations such as github, gitea etc. 
+In systems administration much of the work performed requires the sysadmin to ssh into a machine. Organizations, if prudent will need the users RSA keys in order to provide secure authentication. RSA works under asymmetric encryption with the user generating a private & a public key pair. These keys are later stored in locations such as GitHub, gitea etc. 
 
 ## Generating an RSA key 
 

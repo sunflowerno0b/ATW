@@ -107,3 +107,20 @@ containers are not meant to host OS's, they are designed to carry computations o
 
 `docker run -d [IMAGE NAME]` will run the container detached.
 
+`docker run --name [DESIRED NAME] [IMAGE]` will run a container and name it your desired name
+
+`docker run [IMAGE NAME]` would run the latest image
+
+`docker run [IMAGE NAME]:[VERSION NUMBER]` this would be considered a tag and docker would know to pull an image of this version
+
+Docker containers by default do not listen to standard input. It runs in a noninteractive mode. To have input you must include the `-i` argument in your command, this will run docker in interactive mode. No prompts will run with the `-i` argument as the prompt is on the terminal. The prompt must be set by adding `-it` argument rather than just `-i`.
+
+`-t` stands for a psudo terminal.
+
+Every docker container gets assigned an IP by default, its internal and can only be accessed within the docker host.
+
+If you want your docker image to run on a certain host, you have to map it.
+
+*Need to review and rewrite port mapping section.
+
+`docker run -p 38282:8080 kodekloud/simple-webapp:blue` this command would run docker with the container host being 38282 on port 8080 with the tag blue for image simple-webapp
