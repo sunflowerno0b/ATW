@@ -124,3 +124,13 @@ If you want your docker image to run on a certain host, you have to map it.
 *Need to review and rewrite port mapping section.
 
 `docker run -p 38282:8080 kodekloud/simple-webapp:blue` this command would run docker with the container host being 38282 on port 8080 with the tag blue for image simple-webapp
+
+
+Data is persistent in a docker container.
+All data is gone if you delete the container. Best practice is to map directories to the docker host. It will mount directories inside the container and stored on the external volume and remains even if you delete the docker container.
+
+`docker run -v /opt/datadir:/var/lib/mysql mysql` this command would map it to the var lib and then its specified to the directory inside the container.
+
+`docker inspect [CONTAINER NAME OR ID]` gives you details on a container. 
+
+`docker logs [CONTAINER ID OR NAME]` shows you the logs
