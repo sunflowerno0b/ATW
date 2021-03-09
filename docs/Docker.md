@@ -119,7 +119,7 @@ Docker containers by default do not listen to standard input. It runs in a nonin
 
 Every docker container gets assigned an IP by default, its internal and can only be accessed within the docker host.
 
-If you want your docker image to run on a certain host, you have to map it.
+If you have an image running on an internal docker , users outside the internal docker cannot access. To ammend this you can use the IP of the docker host, but you have to map the port inside the docker container to a free port.
 
 *Need to review and rewrite port mapping section.
 
@@ -129,8 +129,13 @@ If you want your docker image to run on a certain host, you have to map it.
 Data is persistent in a docker container.
 All data is gone if you delete the container. Best practice is to map directories to the docker host. It will mount directories inside the container and stored on the external volume and remains even if you delete the docker container.
 
-`docker run -v /opt/datadir:/var/lib/mysql mysql` this command would map it to the var lib and then its specified to the directory inside the container.
+`docker run -v /opt/datadir:/var/lib/mysql mysql` this command would mount it to the var lib and then its specified to the directory inside the container. This is important because if you delete the Docker container the information remains if mounted in another point. 
 
-`docker inspect [CONTAINER NAME OR ID]` gives you details on a container. 
+`docker inspect [CONTAINER NAME OR ID]` gives you properites on a running container. 
 
-`docker logs [CONTAINER ID OR NAME]` shows you the logs
+`docker logs [CONTAINER ID OR NAME]` shows you the logs (the content written to the standard out of the container)
+
+`docker run -it` this command attaches to the terminal and in interactive mode on the designated container.
+
+## Enviornment Variables 
+Found under the config line in the  container.

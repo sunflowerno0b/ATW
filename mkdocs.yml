@@ -10,6 +10,7 @@ nav:
      - VS Code: VS Code Install.md
      - Ansible Vault: Ansible Vault.md
   - Resources: Resources.md  
+  - Audio: Music.md
 plugins:
   - search
   - autolinks
