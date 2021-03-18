@@ -9,6 +9,7 @@ nav:
      - Web Services: Web Services.md
      - VS Code: VS Code Install.md
      - Ansible Vault: Ansible Vault.md
+     - RSA/config: rsa & config.md 
   - Resources: Resources.md  
   - Audio: Music.md
 plugins:
