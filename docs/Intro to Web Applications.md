@@ -125,3 +125,84 @@ Back end of a web application drives the core web application functionalities wh
 | Development frameworks | development frameworks are used to develop core web application, like PHP, C#,Python |
 
 
+# HTML
+ URL Encoding, or percent-encoding. For a browser to properly display a page's contents, it has to know the charset in use. In URLs, for example, browsers can only use ASCII encoding, which only allows alphanumerical characters and certain special characters. Therefore, all other characters outside of the ASCII character-set have to be encoded within a URL. URL encoding replaces unsafe ASCII characters with a % symbol followed by two hexadecimal digits.
+
+For example, the single-quote character ''' is encoded to '%27', which can be understood by browsers as a single-quote. URLs cannot have spaces in them and will replace a space with either a + (plus sign) or %20.
+
+The World Wide Web Consortium (W3C) defines DOM as:
+
+"The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document."
+
+The DOM standard is separated into 3 parts:
+
+    Core DOM - the standard model for all document types
+    XML DOM - the standard model for XML documents
+    HTML DOM - the standard model for HTML documents
+
+
+
+## CSS
+CSS defines the style of each HTML element or class between curly brackets {}, within which the properties are defined with their values (i.e. element { property : value; }).
+
+
+# JavaScript
+
+
+JavaScript is usually used on the front end of an application to be executed within a browser. 
+
+While HTML and CSS are mainly in charge of how a web page looks, JavaScript is usually used to control any functionality that the front end web page requires.
+
+JavaScript is also used to automate complex processes and perform HTTP requests to interact with the back end components and send and retrieve data, through technologies like Ajax.
+
+## Sensitive Data Exposure
+
+On the client-side if attacked, they put the end-user in danger of being attacked and exploited if they do have any vulnerabilities. If a front end vulnerability is leveraged to attack admin users, it could result in unauthorized access, access to sensitive data, service disruption, and more.
+
+Sensitive Data Exposure refers to the availability of sensitive data in clear-text to the end-user. 
+
+Source code is of a web page or the page source on the front of web application is the HTML source code not to be confused with the back end code that is typically only accessible on the server itself. You can view any websites page source by either right clicking and selecting page source or pressing `ctrl + u`. IF those options do not work you could use a web proxy like Burp suite. 
+
+
+## HTML Injection 
+It is critical to validate and sanitize user input on both the front end and the back end of the user input.
+
+HTML Injection occur when unfiltered user input is displayed on the page. This can be either through retrieving previously submitted code, think a user comment from the back end of the database or directly displaying the unfiltered input through JavaScript on the front end.
+
+Web page defacing consists of injecting new HTML code to change the web pages appearance. 
+
+Injecting a malicious link  could be something like inserting the following line into the web page `<a href="evil website">Click Me</a>`. This would direct the user to press click me which would take them else where to obtain their credentials.
+
+## Cross-Site Scripting (XSS)
+ However, XSS involves the injection of JavaScript code to perform more advanced attacks on the client-side, instead of merely injecting HTML code. There are three main types of XSS:
+
+
+| Type           | Description                                                                                                                |   |   |   |
+|----------------|----------------------------------------------------------------------------------------------------------------------------|---|---|---|
+| Reflected XSS  | happens when user input is displayed on the page after processing (think search result/ error message)                     |   |   |   |
+| Stored XSS     | happens when user input is stored on the back end database and then displayed upon retrieval (think posts/comments)        |   |   |   |
+| DOM XSS        | happens when user input is directly shown in the browser and is written to an HTML DOM (vulnerable username or page title) |   |   |   |
+
+
+
+if you're able to input your payload into a web site to, for example, obtain a cookie value. That value can then be used to attempt to authenticate to the victims account.
+
+## Cross-Site Request Forgery(CSRF)
+Utilizes front end vulnerability that is caused by unfiltered user input. It performs certain queries and API calls on a web application that the victim is currently authenticated to, allowing the attacker to perform actions as the authenticated user.
+
+| Type         | Description                                                                                           |   |
+|--------------|-------------------------------------------------------------------------------------------------------|---|
+| Sanitization | remove special characters and non-standard characters from user input before displaying or storing it |   |
+| Validation   | ensuring that submitted user niput matches the expected format, think email matching email format     |   |
+
+Web application firewall (WAF) filters, monitors and blocks HTTP traffic to and from a web service. 
+
+
+## Back End Servers
+A back end server is the hardware and operating system on the back end that hosts all of the applications necessary to run the web application. It's the real system running all of the processes and carrying all of the tasks that make up the entire web application. The back end server fits in the data access layer. There are 3 back end components:
+
+1) web server 
+
+2) database 
+
+3) development frame work 
