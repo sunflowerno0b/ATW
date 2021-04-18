@@ -1,6 +1,6 @@
 site_name: Things Learned 
 site_author: sunflowerno0b
-site_url: https://sunflowerno0b.github.io/Things-Learned
+site_url: https://sunflowerno0b.github.io/ATW
 nav:
   - Introduction: index.md
   - Markdown Syntax: Markdown Syntax.md
