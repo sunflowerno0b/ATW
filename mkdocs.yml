@@ -11,6 +11,7 @@ nav:
      - Ansible Vault: Ansible Vault.md
      - RSA/config: rsa & config.md
      - Using Coda: Coda.md
+     - Clinv: Clinv.md
   - Web Application:
      - Introdcution: Intro to Web Applications.md 
   - Resources: Resources.md  
