@@ -25,7 +25,7 @@ User at my org was attempting to ssh into a machine but was getting an
 ## Solution Thought Process
 First, I realized this user had been out for about two weeks, perhaps their key expired & needed updating. This was not the case; they key the user was using was the team key for a generic user, not specific. 
 
-I had to attempt to recreate the issue (note my friend Txu guided my hand through all this, always grateful for you♡).
+I had to attempt to recreate the issue (note my friend guided my hand through all this, always grateful for you♡).
 
 I asked user to attempt connecting but directing ssh to the user key with the following command:
 

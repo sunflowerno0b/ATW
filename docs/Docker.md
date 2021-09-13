@@ -75,7 +75,7 @@ To run this image I ran
 
 `sudo docker run docker/whalesay cowsay [INPUT]`
 
-(insert my hi Txu photo here)
+(insert my hi friendu photo here)
 
 
 
