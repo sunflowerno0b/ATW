@@ -5,6 +5,7 @@ nav:
   - Introduction: index.md
   - Markdown Syntax: Markdown Syntax.md
   - Securedrop: Securedrop.md
+  - Debian Install: Debian 10.md
   - Systems: 
      - Web Services: Web Services.md
      - VS Code: VS Code Install.md
@@ -12,6 +13,9 @@ nav:
      - RSA/config: rsa & config.md
      - Using Coda: Coda.md
      - Clinv: Clinv.md
+     - Docker: Docker.md
+     - Gita: Gitea.md
+     - Networking.md
   - Web Application:
      - Introdcution: Intro to Web Applications.md 
   - Resources: Resources.md  
