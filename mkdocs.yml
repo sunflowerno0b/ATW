@@ -14,7 +14,7 @@ nav:
      - Using Coda: Coda.md
      - Clinv: Clinv.md
      - Docker: Docker.md
-     - Gita: Gitea.md
+     - Gitea: Gitea.md
      - Networking.md
   - Web Application:
      - Introdcution: Intro to Web Applications.md 
