@@ -14,7 +14,7 @@ In the spirit of removing proprietary items to the extent that my knowledge and 
 I had an old laptop that contained most of the music I've horded since middle school. I simply selected all the files and placed them in my SanDisk memory. About 730 of the files were corrupted, transferring over 0 bytes. 
 
 # Solution 
-After sorting the files by size, I then created .opus files to form my play list. I realized that I had several dozen .opus files that my mp3 could not read. I had to batch convert. All over the web I found different types of answers all that were too complex. My friend Txu attempted to help but I got a parse error, still need to debug this. But for now- to convert a directory of *.[m4a,opus,etc] files to another type of file using ffmpeg the following command works:
+After sorting the files by size, I then created .opus files to form my play list. I realized that I had several dozen .opus files that my mp3 could not read. I had to batch convert. All over the web I found different types of answers all that were too complex. My friend attempted to help but I got a parse error, still need to debug this. But for now- to convert a directory of *.[m4a,opus,etc] files to another type of file using ffmpeg the following command works:
 
 ` for i in *.opus; do ffmpeg -i "$i" -b:a 192k "$i%.*}.mp3"; done`
 
