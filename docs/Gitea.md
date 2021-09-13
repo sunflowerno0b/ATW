@@ -7,8 +7,8 @@ My friend told me about [Disroot]( https://disroot.org/en/about) which met my ne
 ### Custom Issue Templates 
 In my old organization my team had a custom issue template that I really liked. With my new Gitea I realized that I had something similar but alas it was not the same. This revealed two problems:
 
-1) I needed to connect to Gitea to modify the files so that the web would reflect my configurations 
-2) How to connect to Gitea via my terminal 
++ I needed to connect to Gitea to modify the files so that the web would reflect my configurations.
++  How to connect to Gitea via my terminal?
 
 ### Problems Solved
 After doing some research & pulling from my memory bank I realized that I had to generate an SSH key, store it within the settings of my Gitea. This would come in hand when attempting to speak to the Disroot server that would then connect me to my Gitea. 
