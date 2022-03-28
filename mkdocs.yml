@@ -16,6 +16,7 @@ nav:
      - Docker: Docker.md
      - Gitea: Gitea.md
      - Networking.md
+     - Adding Wifi to Local Server: Server Wifi Install.md
   - Web Application:
      - Introdcution: Intro to Web Applications.md 
   - Resources: Resources.md  
