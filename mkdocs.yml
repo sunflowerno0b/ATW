@@ -19,6 +19,8 @@ nav:
      - Adding Wifi to Local Server: Server Wifi Install.md
   - Web Application:
      - Introdcution: Intro to Web Applications.md 
+  - Personal Projects:
+     - Security Camera: Motion Eye.md
   - Resources: Resources.md  
   - Audio: Music.md
 plugins:
