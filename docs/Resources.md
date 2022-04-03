@@ -1,6 +1,6 @@
 # Resources 
 This will be a location for links of useful information I have found that 
-has helped me with issues, questions or just curiosities.  
+has helped me with issues, questions or just curiosities.  I am still trying to figure out the best structure - I understand its not the clearest at the moment. Bare with me - WIP.
 
 # Websites
 I will include a quick scenario for which each link has helped me.
@@ -35,3 +35,40 @@ The tutorial I used is:
 https://www.fossmint.com/pass-commandline-password-manager-for-linux/
 
 (***also very glad to see it was a POC blogger***)
+
+## W3 Playlists
+I found this series of playlists that talks Dockers, Helms, DecOps, Terraform & more. 
+
+Check it out here: https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ/playlists?view=1&sort=lad
+
+CompTIA A+ Playlist: https://www.youtube.com/playlist?list=PLc6LqxQFwub8Qac87gEF0MhSAxe5PqoNS
+
+## W4 Short YouTube Videos
+
+10 Basic linux network commands:
+https://www.youtube.com/watch?v=vq063fExJN8
+
+## W5 Github Pages
+This page shows cybersecurity newsletters to keep you up to date on the latest tools, blogs, conferences etc.
+
+https://github.com/TalEliyahu/awesome-security-newsletters
+
+
+
+## Windows Specific 
+If you wanted to see the stats on your background follow this link: https://github.com/TalEliyahu/awesome-security-newsletters
+
+Playlist showing how to use Intune: https://www.youtube.com/c/IntuneTraining
+
+
+## W6 Linux Networking
+Linux network commands https://bytexd.com/19-commands-to-monitor-the-network-activity-in-linux/
+
+## W6 Fiber Optic 
+
+How & what is fiber optic: reddit.com/r/networking/comments/3gx5dz/ysk_if_you_dont_about_fiber_optics_and_how_they/
+
+## W7 How does Encryption work?
+
+Check out this blog post here: https://www.cloudflare.com/en-ca/learning/ssl/how-does-public-key-encryption-work/
+
