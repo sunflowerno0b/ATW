@@ -66,9 +66,15 @@ Linux network commands https://bytexd.com/19-commands-to-monitor-the-network-act
 
 ## W6 Fiber Optic 
 
-How & what is fiber optic: reddit.com/r/networking/comments/3gx5dz/ysk_if_you_dont_about_fiber_optics_and_how_they/
+How & what is fiber optic: https://www.reddit.com/r/networking/comments/3gx5dz/ysk_if_you_dont_about_fiber_optics_and_how_they/
 
 ## W7 How does Encryption work?
 
 Check out this blog post here: https://www.cloudflare.com/en-ca/learning/ssl/how-does-public-key-encryption-work/
 
+## W8 Coding Fun
+This one was funny to be because I am always typing the wrong thing in the terminal.
+
+Check here: https://github.com/nvbn/thefuck
+
+I think I will test it out. 
