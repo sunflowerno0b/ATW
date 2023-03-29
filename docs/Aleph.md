@@ -5,7 +5,7 @@ In order to run Aleph it would be easiest to manage via an AWS EC2 instance. To 
 
 1) https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard: and select the server that you wanted- for this case I selected Ubuntu 20.05 LTS Server with the 64 bit x86. 
 
-From there you are taking to step 2 out of 7 which is selecting the instance type. Here we have to see how many CPuS, RAM memory (GiB) would be need. I was confused about price so my friend mentioned that I can gather estimates from: https://calculator.aws/#/createCalculator/EC2 when using that page its easier to just type EC2 rather than the drop down menu because the services to get estimates on was endless. I selected the region to be US E. N Virigna - for no particular reason that a) at my old organization thats what they used b) we had another instance running there already and I wanted everything to be accessed at once. I then selected linux then ticked the search by instances by name - in this case `t3.medium`. I kept the ututization at 100% and the number of EC2 at 1. 
+From there you are taking to step 2 out of 7 which is selecting the instance type. Here we have to see how many CPuS, RAM memory (GiB) would be need. I was confused about price so my friend mentioned that I can gather estimates from: https://calculator.aws/#/createCalculator/EC2 when using that page its easier to just type EC2 rather than the drop down menu because the services to get estimates on was endless. I selected the region to be US E. N Virginia - for no particular reason that a) at my old organization thats what they used b) we had another instance running there already and I wanted everything to be accessed at once. I then selected linux then ticked the search by instances by name - in this case `t3.medium`. I kept the utilization at 100% and the number of EC2 at 1. 
 
 My friend explained that we have options for this, we could have auto scaling which means that there would be 3 instances so should one fail the other two could still keep the service running. But since this is just staging 1 would be enough for now. Total estimated cost per year would be 288USD.
 
@@ -286,7 +286,7 @@ postgres-keycloak:
       - KEYCLOAK_JDBC_PARAMS=sslmode=verify-full&connectTimeout=30000
 ```
 
-Once I added these configurations I restarted aleph and I was able to access keycloak 
+Once I added these configurations I restarted aleph and I was able to access key-cloak.
 
 Notes to add:
 when testing the local docker you need to run `docker-compose  up` 
