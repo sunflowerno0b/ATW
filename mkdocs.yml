@@ -14,6 +14,7 @@ nav:
      - Using Coda: Coda.md
      - Clinv: Clinv.md
      - Docker: Docker.md
+     - Aleph: Aleph.md
      - Gitea: Gitea.md
      - Networking.md
      - Adding Wifi to Local Server: Server Wifi Install.md
