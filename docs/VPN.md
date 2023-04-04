@@ -4,12 +4,12 @@ VPN and servers can be confusing, I am still confused by them today. Below are s
 
 ## VPN
 If you ever have an issue with a connection one of the 
-common places to check is your resolv.conf file. 
+common places to check is your `resolv.conf` file. 
 
 ### How?
-In your terminal with your editor of choice open resolv.conf, if you do not have this file the editor will automatically create it. 
+In your terminal with your editor of choice open `resolv.conf`, if you do not have this file the editor will automatically create it. 
 
-You will want to add the namesever of the site you're trying to reach. Example:
+You will want to add the name-server of the site you're trying to reach. Example:
 `nameserver 172.X.XX.X.X`
 
 When not needed feel free to comment it out. Example:
@@ -28,7 +28,7 @@ go to the configuration settings and select something
  `tar -cvfz [NAME OF TARBALL].tar.gz [DESIRED LOCATION OF FILE]`
 
 ## Connecting To Servers 
-Working on systems will have you remoting into several 
+Working on systems will have you ssh'ing into several 
 machines. At times you will have to copy over tarballs
 from one machine into yours or your desired external
 storage device.
