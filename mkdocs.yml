@@ -26,6 +26,7 @@ nav:
      - Adding Wifi to Local Server: Server Wifi Install.md
   - Web Application:
      - Introdcution: Intro to Web Applications.md 
+     - Website Attacks: Common Website Attacks.md
   - Personal Projects:
      - Security Camera: Motion Eye.md
      - Contact CRM: Monica.md
