@@ -17,4 +17,4 @@ I need to double check this command by trying it out. Will update with any bugs 
 
 ### Test
 
-<img src="/img/outerspace.png">
+![outerspace](img/outerspace.png)
