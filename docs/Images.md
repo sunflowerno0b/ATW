@@ -11,7 +11,7 @@ My friend taught me another way. In my currently structure I have a docs folder 
 To do that running the command within your path to `docs` : `mkdir img`.
 From that directory I can now store my images. But now that they have a place to live, I need to reference them so my mkdoc can pull the image to my ATW site.
 
-When referencing any image in a post it should be `! [ text?] (IMAGE NAME.JPG)`. 
+When referencing any image in a post it should be `![ text?](IMAGE NAME.JPG)`. 
 
 I need to double check this command by trying it out. Will update with any bugs I find. 
 
