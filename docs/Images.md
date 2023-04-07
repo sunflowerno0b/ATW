@@ -14,3 +14,7 @@ From that directory I can now store my images. But now that they have a place to
 When referencing any image in a post it should be `! [ text?] (IMAGE NAME.JPG)`. 
 
 I need to double check this command by trying it out. Will update with any bugs I find. 
+
+### Test
+
+`! [ashtronaut] (outerspace.png)
