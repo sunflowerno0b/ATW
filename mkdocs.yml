@@ -30,6 +30,8 @@ nav:
   - Personal Projects:
      - Security Camera: Motion Eye.md
      - Contact CRM: Monica.md
+  - Git Hub:
+     - GPG Fix: Github GPG Error.md
   - Resources: Resources.md  
   - Audio: Music.md
 plugins:
