@@ -69,7 +69,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 theme: 
-  name: terminal
+  name: material
   logo: AstronautFloatingPose1_stars.jpg
   features:
     - navigation.instant

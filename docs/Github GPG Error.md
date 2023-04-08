@@ -8,6 +8,8 @@ I couldn't understand what was going on with my key. Turns out it was using anot
 * I ran `gpg2 -K --keyid-format SHORT`
 This showed me a list of keys. I found the email and key associated with my account 
 
+![key demo](img/keydemo.png)
+
 * I took my ID and ran
  `git config --global user.signingKey 2379CAAE`
 
