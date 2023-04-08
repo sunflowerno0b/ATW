@@ -69,8 +69,8 @@ markdown_extensions:
   - pymdownx.tilde
 
 theme: 
-  name: material
-  logo: outerspace.png
+  name: terminal
+  logo: AstronautFloatingPose1_stars.jpg
   features:
     - navigation.instant
   language: en
