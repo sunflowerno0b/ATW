@@ -20,6 +20,7 @@ nav:
      - Moysle: Mosyle Permissions.md
      - VS Code: VS Code Install.md
      - RSA/config: rsa & config.md
+     - Terraform: Terraform.md
      - Using Coda: Coda.md
      - Networking: Networking.md
      - Sever: VPN.md
