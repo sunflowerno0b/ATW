@@ -34,6 +34,13 @@ nav:
      - GPG Fix: Github GPG Error.md
   - Resources: Resources.md  
   - Audio: Music.md
+  - P107:
+    - Chapter 1: 
+    - Chatper 2:
+    - Chapter 3:
+    - Chatper 4:
+    - Chatper 5:
+    - C
 plugins:
   - search
   - autolinks
